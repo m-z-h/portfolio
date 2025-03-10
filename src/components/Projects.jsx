@@ -53,7 +53,7 @@ const Projects = () => {
                 </div>
                 <div className="flex gap-7 justify-center items-center my-7 text-2xl">
                   <a
-                    className="text-green-600 text-xl bg-black rounded-full p-2"
+                    className="text-green-600 text-xl bg-black hover:text-lime-300 rounded-full p-2"
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -61,7 +61,7 @@ const Projects = () => {
                     <FaGithub />
                   </a>
                   <a
-                    className="text-red-600 text-xl bg-black rounded-full p-2"
+                    className="text-red-600 text-xl bg-black hover:text-lime-300 rounded-full p-2"
                     href={project.demo}
                     target="_blank"
                     rel="noopener noreferrer"

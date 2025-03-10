@@ -5,10 +5,11 @@ const ProfileData = {
   img: heroImage,
   logo: logoImage,
   name: "Md Zahid Hussain",
-  professions: ["Web Developer", "Free Lancer", "Enthusiastic Dev"],
+  professions: ["Web Developer", "Freelancer", "Enthusiastic Dev"],
   info: [
-    "Knack of building web applications using MERN stack.",
-    "I enjoy designing tech websites.",
+    "🎨 Crafting dynamic web experiences with the power of MERN—where code meets creativity! 🚀",
+    "Passionate about building sleek & interactive tech websites.",
+    "💡 Turning ideas into reality!",
   ],
   resume:
     "https://drive.google.com/file/d/1u3QHBmElGNX86T8lD1xA0wdkrXRbemsL/view?usp=sharing",

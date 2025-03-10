@@ -47,7 +47,7 @@ const Navbar = () => {
                 offset={-100}
                 duration={750}
                 to={item.link}
-                className="cursor-pointer hover:font-bold hover:text-[#c0b735] hover:text-[25px]"
+                className="cursor-pointer font-bold hover:font-bold hover:text-[#c0b735] hover:text-[25px]"
               >
                 {item.title}
               </Link>
@@ -58,7 +58,7 @@ const Navbar = () => {
           data-aos="fade-left"
           data-aos-duration="1000"
           data-aos-once="false"
-          className="lg:hidden mr-2"
+          className="lg:hidden mr-2 "
         >
           <button onClick={toggleMenu} className="p-2 text-white">
             {isMenuOpen ? (
@@ -78,13 +78,13 @@ const Navbar = () => {
             href={ProfileData.resume}
             target="_blank"
             rel="noreferrer"
-            className="leading-none text-white bg-dark-orange py-3 px-10 rounded-lg font-medium text-lg"
+            className="leading-none text-white  font-bold hover:font-bold hover:text-[#c0b735] hover:text-[25px] bg-dark-orange py-3 px-10 rounded-lg text-lg"
           >
             Resume
           </a>
         </button>
         {isMenuOpen && (
-          <div className="min-h-[calc(100vh-4rem)] absolute inset-x-0 top-16 z-50 transition-all ease-in duration-1000 lg:hidden">
+          <div className="min-h-[calc(100vh-4rem)]  bg-slate-600 absolute inset-x-0 top-16 z-50 transition-all ease-in duration-1000 lg:hidden">
             <div
               data-aos="zoom-in-down"
               data-aos-duration="500"
@@ -102,7 +102,7 @@ const Navbar = () => {
                       offset={-100}
                       duration={750}
                       to={item.link}
-                      className="cursor-pointer hover:text-dark-orange"
+                      className="cursor-pointer font-bold hover:font-bold hover:bg-sky-700 hover:text-[#fff34f] hover:text-[25px]"
                     >
                       {item.title}
                     </Link>
@@ -112,7 +112,7 @@ const Navbar = () => {
                   href={ProfileData.resume}
                   target="_blank"
                   rel="noreferrer"
-                  className="text-white bg-dark-orange py-2.5 px-10 rounded-lg font-medium text-lg wfit mx-auto"
+                  className="text-white py-2.5 px-10 cursor-pointer font-bold hover:font-bold hover:text-[#c0b735] hover:text-[25px] rounded-lg  text-lg w-fit mx-auto"
                 >
                   Resume
                 </a>

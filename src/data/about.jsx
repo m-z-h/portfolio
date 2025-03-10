@@ -3,9 +3,9 @@ import aboutImage from "../assets/Images/about.png";
 const AboutData = {
   image: aboutImage,
   description: [
-    "A passionate and dedicated web developer with a strong background in creating visually stunning and highly functional websites with 2 years of experience in the field.",
-    "Throughout my career, I have developed proficiency in various web technologies including HTML5 , CSS3 , JavaScript. I am well-versed in popular libraries such as React and frameworks like Next ,Tailwind allowing me to build robust and responsive websites.",
-    "I'm excited to take on new challenges and contribute to innovative projects. Feel free to connect with me through my social media link",
-  ],
+    "Hi, I'm a passionate web developer eager to build dynamic and scalable web applications! With a strong foundation in the MERN stack (MongoDB, Express.js, React, and Node.js), I love crafting seamless and responsive digital experiences. My skills in HTML5, CSS3, JavaScript, React, Next.js, and Tailwind CSS allow me to create modern, user-friendly interfaces.",
+
+    "As a fresher, I'm always excited to learn, explore new technologies, and take on challenges. I thrive in collaborative environments and am ready to contribute to innovative projects. Let’s connect and build something amazing together!",
+  ]
 };
 export default AboutData;
