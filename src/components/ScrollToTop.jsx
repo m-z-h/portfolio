@@ -33,7 +33,7 @@ const ScrollToTopButton = () => {
         showButton ? "fixed bottom-3 right-4" : "hidden"
       } bg-[#2dd9fc] p-1 rounded-full text-white hover:bg-[#bbf13c] shadow-lg transition duration-900`}
     >
-      <FaCircleArrowUp className="w-10 h-20 lg:w-8 lg:h-8" />
+      <FaCircleArrowUp className="w-8 h-8 lg:w-10 lg:h-10" />
     </button>
   );
 };
