@@ -24,7 +24,7 @@ const ProjectsData = [
     image: ECom,
     icons: [BiLogoReact, BiLogoTailwindCss,],
     description: "A responsive frontend for an e-commerce platform, featuring product listings, filtering, and a modern UI using React and Tailwind CSS.",
-    github: "https://github.com/m-z-h",
+    github: "https://github.com/m-z-h/MZH_Store-E_COM-",
     demo: "https://mzh-store-e-com.vercel.app/",
   },
   {
