@@ -30,7 +30,7 @@ const Contact = () => {
 
   return (
     <section className="text-gray-600 body-font ">
-      <div className="px-3 py-5 mx-auto text-center md:mt-7 sm:mx-7 md:mx-12 lg:mx-32 xl:mx-56">
+      <div className="px-3 py-5 mx-auto text-cente md:mt-7 sm:mx-7 md:mx-12 lg:mx-32 xl:mx-56">
         <div id="contact" className="flex flex-col text-center w-full mb-4">
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-white">
             Contact Me
@@ -44,13 +44,13 @@ const Contact = () => {
             Let's keep in touch
           </p>
         </div>
-        <div className="flex flex-col gap-2 md:flex-row w-full mx-auto rounded-xl bg-darkblue p-4 md:gap-7 lg:gap-9 lg:rounded-2xl xl:gap-10">
+        <div className="flex flex-col  bg-[#16898fb9] gap-2 md:flex-row w-full mx-auto rounded-xl bg-darkblue p-4 md:gap-7 lg:gap-9 lg:rounded-2xl xl:gap-10">
           <div className="p-2 w-full text-center lg:p-5 xl:p-7 md:w-1/2 lg:w-4/6">
             <h1
               data-aos="zoom-in-down"
               data-aos-duration="1000"
               data-aos-once="false"
-              className="hidden md:block text-2xl lg:text-3xl text-[#5CB338] font-medium mb-3 lg:mb-4"
+              className="hidden md:block text-2xl lg:text-3xl text-[#88f52e] font-medium mb-3 lg:mb-4"
             >
               Get In Touch
             </h1>
@@ -68,7 +68,7 @@ const Contact = () => {
               data-aos-once="false"
               className="flex gap-3 items-center mb-4 md:gap-2 lg:gap-5"
             >
-              <FaEnvelope className="text-[#1bd7e1]" />
+              <FaEnvelope className="text-[#facc16]" />
               <a
                 href={`mailto:${ContactData.email}`}
                 className="text-[#ffffff] md:text-lg"
@@ -82,7 +82,7 @@ const Contact = () => {
               data-aos-once="false"
               className="flex gap-3 items-center md:gap-2 lg:gap-5"
             >
-              <FaMapMarkerAlt className="text-[#1bd7e1]" />
+              <FaMapMarkerAlt className="text-[#facc16]" />
               <p className="leading-normal text-start text-white md:text-lg">
                 {ContactData.address}
               </p>

@@ -55,9 +55,9 @@ const Experience = () => {
                 </div>
                 <div className="col-start-5 col-end-6 md:mx-auto relative mr-3 md:mr-10">
                   <div className="h-full w-4 flex items-center justify-center">
-                    <div className="h-full w-[3px] bg-dark-orange/50"></div>
+                    <div className="h-full w-[3px] bg-orange-300"></div>
                   </div>
-                  <div className="w-4 h-4 absolute top-4 rounded-full bg-dark-orange shadow">
+                  <div className="w-4 h-4 absolute top-4 rounded-full bg-orange-300 shadow">
                     <div className="h-full w-full bg-dark-orange/30 animate-pulse scale-150 rounded-full"></div>
                   </div>
                 </div>
@@ -66,9 +66,9 @@ const Experience = () => {
               <div key={index} className="flex md:contents text-start">
                 <div className="col-start-5 col-end-6 md:mx-auto relative mr-3 md:mr-10">
                   <div className="h-full w-4 flex items-center justify-center">
-                    <div className="h-full w-[3px] bg-dark-orange/50"></div>
+                    <div className="h-full w-[3px] bg-orange-300"></div>
                   </div>
-                  <div className="w-4 h-4 absolute top-4 rounded-full bg-dark-orange shadow">
+                  <div className="w-4 h-4 absolute top-4 rounded-full bg-orange-300 shadow">
                     <div className="h-full w-full bg-dark-orange/30 animate-pulse scale-150 rounded-full"></div>
                   </div>
                 </div>
@@ -76,7 +76,7 @@ const Experience = () => {
                   data-aos="zoom-in-up"
                   data-aos-duration="1500"
                   data-aos-once="false"
-                  className="bg-slate-100 text-white
+                  className="bg-slate-800 text-white
                    col-start-6 col-end-10 p-2.5 md:p-4 rounded-lg my-4 mr-auto shadow-md"
                 >
                   <h3 className="text-lg md:text-xl font-semibold mb-1">
