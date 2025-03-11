@@ -16,7 +16,7 @@ const ProjectsData = [
     icons: [ SiNextdotjs, BiLogoReact, BiLogoTailwindCss, SiClerk, SiMapbox, FaStripe],
     description: "A fast and intuitive cab booking web app where users can search for rides, book cabs, track their journey in real-time, and make secure payments—all in one place.",
     github: "https://github.com/m-z-h/apnacab",
-    demo: "https://github.com/m-z-h/apnacab",
+    demo: "https://apnacab.vercel.app/",
   },
   {
     id: "2",
